@@ -1,0 +1,9 @@
+img {
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
