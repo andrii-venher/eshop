@@ -25,6 +25,9 @@
                         <a class="nav-link" href="/">Home</a>
                         <a class="nav-link" href="/product_show.php">Create product</a>
                         <a class="nav-link" href="/product_table.php">Product table</a>
+                        <a class="nav-link" href="/category_show.php">Create category</a>
+                        <a class="nav-link" href="/category_table.php">Category table</a>
+                        <a class="nav-link" href="/debug.php">Debug</a>
                     </div>
                 </div>
             </div>

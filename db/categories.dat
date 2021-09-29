@@ -1,0 +1,1 @@
+[{"id":1,"name":"Food","parentId":0},{"id":2,"name":"Electronics","parentId":0},{"id":3,"name":"Fruit","parentId":1},{"id":4,"name":"Vegetable","parentId":1},{"id":5,"name":"Tropical fruit","parentId":3},{"id":6,"name":"Exotic fruit","parentId":3},{"id":7,"name":"Mobile phone","parentId":2}]

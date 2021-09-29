@@ -2,12 +2,14 @@
 <div class="container">
     <?php 
     $products = getJsonArray('db/products.dat');
+    $categories = getCategories();
     ?>
     <table class="table">
         <thead>
             <tr>
                 <th scope="col">Name</th>
                 <th scope="col">Articul</th>
+                <th scope="col">Category</th>
                 <th scope="col">Description</th>
             </tr>
         </thead>
@@ -17,6 +19,7 @@
                 <tr>
                     <th scope="row"><?= $product['name'] ?></th>
                     <td><?= $product['articul'] ?></td>
+                    <td><?= getCategoryName($product['categoryId']) ?></td>
                     <td><?php echo strlen($product['description']) > 10 ? mb_substr($product['description'], 0, 10).'...' : $product['description'] ?></td>
                 </tr>
               <?php } ?>
